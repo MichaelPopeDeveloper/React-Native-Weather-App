@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./Server/dir",
+        "sourceMap": true,
+        "lib": [
+            "es2015",
+            "dom"
+        ]
+    },
+    "include": [
+        "Server/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
